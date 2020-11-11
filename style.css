@@ -63,9 +63,6 @@ html {
 
 body{ /*background image and set it to cover the page and not repeat */
   background:url(images/space.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-
 }
 
 main article img{ /*center the profile picture*/
@@ -77,13 +74,14 @@ main article img{ /*center the profile picture*/
 }
 
 header{
+  background: rgba(123, 121, 126, 0.7);
   text-align: center;
   display: flex;
   flex-direction: column;
 }
 header nav{
   border-radius: 20px;
-  background: rgba(123, 121, 126, 0.7);
+  
   margin-top:10px;
   padding: 0 10px 0 10px;
   display: flex;
@@ -97,9 +95,9 @@ header nav ul{
 }
 
 header nav ul li a{
-  font-size: 17px;
+  font-size: 15px;
   text-decoration: none;
-  margin: 0 10px 0 0;
+  margin: 0 15px 0 0;
 }
 
 footer nav{
@@ -116,7 +114,7 @@ footer nav ul{
 footer nav ul li a{
   font-size: 15px;
   text-decoration: none;
-  margin: 0 25px 0 0;
+  margin: 0 15px 0 0;
 }
 
 footer nav ul li:last-child a{
@@ -126,7 +124,7 @@ footer nav ul li:last-child a{
 h2{
   font-size: 30px; /* h2 font size */
   color: lightskyblue; /* h2 font color */
-  background: rgba(123, 121, 126, 0.7);
+  
   text-align: center;
   border-radius: 20px;
   width:100%;
@@ -139,7 +137,7 @@ h1{
   font-family: cursive; /* h1 font */
   font-size: 60px; /* h1 font size */
   color: lightskyblue; /* font color for h1 */
-  background: rgba(123, 121, 126, 0.7); 
+  
   border-radius: 20px;
 }
 
@@ -220,12 +218,14 @@ form textarea{
     font-family: cursive; /* h1 font */
     font-size: 72px; /* h1 font size */
     color: lightskyblue; /* font color for h1 */
+    
+    
   }
 
   h2{
     font-size: 30px; /* h2 font size */
     color: lightskyblue; /* h2 font color */
-    background: rgba(123, 121, 126, 0.7);
+    
     margin:auto;
     text-align: center;
     border-top: 20px;
@@ -242,7 +242,7 @@ form textarea{
 
   header nav{
     border-radius: 20px;
-    background: rgba(123, 121, 126, 0.7);
+    
     margin-top:50px;
     padding: 0 10px 0 10px;
     display: flex;
@@ -282,9 +282,6 @@ form textarea{
     
   }
   
-  
-  
-
   main p{
     font-family: cursive; /* paragraph font */
     font-size: 18px; /* paragraph font size */
