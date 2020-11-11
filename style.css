@@ -189,7 +189,7 @@ footer{ /* footer formatting  */
   font-size: 8px; /* font size */
   color:white; /* font color */
   height: 40px; /* height of the footer */
-  background: black; /* color of the footer */
+  background: rgba(123, 121, 126, 0.7);
 }
 
 form{
