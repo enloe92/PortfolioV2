@@ -8,7 +8,9 @@ html {
   box-sizing: inherit;
 }
 
-
+.projectLinks{
+  margin-left: 10px
+}
 .group{
   border-radius: 20px;
   color: lightskyblue;
